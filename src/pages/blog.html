@@ -1,0 +1,119 @@
+@@include('header.html')
+
+<main>
+  <section
+    class="section page-header relative overflow-hidden pb-96 after:z-10">
+    <div class="container relative z-30">
+      <div class="row items-center">
+        <div class="mx-auto text-center lg:col-7">
+          <h1
+            class="mb-6 text-[35px] sm:text-[50px] xl:text-[65px]"
+            data-aos="fade-up-sm">
+            News & Tips From the Spydea HQ
+          </h1>
+          <ul class="breadcrumb" data-aos="fade-up-sm" data-aos-delay="50">
+            <li class="breadcrumb-list-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-list-item">
+              <span>Blog</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Main Content -->
+
+    <div class="line-bg absolute z-20">
+      <div class="container flex justify-between">
+        <span
+          class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+        <span
+          class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+        <span
+          class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+        <span
+          class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+        <span
+          class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+        <span
+          class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"></span>
+      </div>
+    </div>
+    <!-- End background lines -->
+
+    <!-- Start Shape background -->
+    <div
+      class="pointer-events-none absolute left-0 top-[5%] z-30 hidden select-none lg:block"
+      data-aos="fade-up-sm">
+      <img
+        class="text-secondary"
+        data-src="./images/shapes/page-header-s-1.svg"
+        alt="shape" />
+    </div>
+    <div
+      class="pointer-events-none absolute right-0 top-[25%] z-30 hidden select-none lg:block"
+      data-aos="fade-up-sm">
+      <img
+        class="text-quinary"
+        data-src="./images/shapes/page-header-s-2.svg"
+        alt="shape" />
+    </div>
+    <!-- End background Lines -->
+  </section>
+  <!-- End Page Header -->
+
+  <section
+    class="section-md relative mt-[-28rem] overflow-hidden md:mt-[-32rem]">
+    <div class="container relative z-30">
+      <div class="row gy-4">
+        @@include('components/post-card.html', {
+        'title': 'The Real Product From The Buyers Improvements In Overflow Basis.','image': '1.jpg','date': 'April 03, 2023', 'author-name': 'Daniel Mitchell','author-image':'1.jpg'})
+
+         @@include('components/post-card.html', {
+        'title': 'Why You Should Launch Your Product In Phases Not After Done','image': '2.jpg','date': 'April 04, 2023', 'author-name': 'Benjamin','author-image':'5.jpg'})
+
+         @@include('components/post-card.html', {
+        'title': 'Three Reasons You DON’T Need An App On The App Store','image': '3.jpg','date': 'April 03, 2023', 'author-name': 'Darlene Robertson','author-image':'6.jpg'})
+
+         @@include('components/post-card.html', {
+        'title': 'How And Why We Decided To Launch An EMI Scheme For Our Employees','image': '4.jpg','date': 'April 09, 2023', 'author-name': 'Thomas Roberts','author-image':'4.jpg'})
+
+         @@include('components/post-card.html', {
+        'title': 'Using Wakanda For Project Management When Working Remote','image': '5.jpg','date': 'April 03, 2023', 'author-name': 'Benjamin','author-image':'5.jpg'})
+
+         @@include('components/post-card.html', {
+        'title': 'How To Write A Brief For A New Website Or App.','image': '6.jpg','date': 'April 08, 2023', 'author-name': 'Darlene Robertson','author-image':'6.jpg'})
+
+         @@include('components/post-card.html', {
+        'title': 'How And Why We Decided To Launch An EMI Scheme For Our Employees','image': '7.jpg','date': 'April 09, 2023', 'author-name': 'Thomas Roberts','author-image':'7.jpg'})
+
+         @@include('components/post-card.html', {
+        'title': 'What To Consider Before Starting A Business – Inside The Studio','image': '8.jpg','date': 'April 21, 2023', 'author-name': 'Benjamin','author-image':'1.jpg'})
+
+         @@include('components/post-card.html', {
+        'title': 'Companies Moving In Onboard Ing New Employees With VR','image': '9.jpg','date': 'April 22, 2023', 'author-name': 'David Harrison','author-image':'8.jpg'})
+      </div>
+    </div>
+
+    <!-- Start Bg Shape -->
+    <div class="pointer-events-none absolute left-0 top-[40%] select-none">
+      <img
+        class="text-quaternary"
+        data-src="./images/shapes/blog-list-s-1.svg"
+        alt="shape" />
+    </div>
+    <div
+      class="pointer-events-none absolute bottom-[20%] right-[-6%] select-none">
+      <img
+        class="text-quinary"
+        data-src="./images/shapes/team-member-s-2.svg"
+        alt="shape" />
+    </div>
+    <!-- End Bg Shape -->
+  </section>
+  <!-- End Articles Section -->
+</main>
+<!-- End Main Content -->
+
+@@include('footer.html')

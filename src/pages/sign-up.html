@@ -1,0 +1,155 @@
+@@include('header.html', {"page": "sign-up"})
+
+<main>
+  <section class="section relative overflow-hidden">
+    <div class="container relative z-30">
+      <div class="row">
+        <div class="relative mx-auto lg:col-9 xl:col-7">
+          <div
+            data-aos="fade-up-sm"
+            class="shadow-default rounded-2xl bg-white px-8 py-8 sm:px-20 sm:py-20">
+            <div class="mb-6 text-center">
+              <svg
+                width="130"
+                height="130"
+                viewBox="0 0 130 130"
+                class="mx-auto mb-6 block w-[60px] sm:mb-12 sm:w-[70px] md:w-[130px]"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="130" height="130" rx="65" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1">
+                    <use
+                      xlink:href="#image0_3_8908"
+                      transform="scale(0.00714286)" />
+                  </pattern>
+                  <image
+                    id="image0_3_8908"
+                    width="140"
+                    height="140"
+                    xlink:href="data:image/png;base64,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" />
+                </defs>
+              </svg>
+              <h1 class="mb-5 sm:mb-10 md:text-4xl lg:text-5xl">Sign up</h1>
+              <p class="mb-8 text-lg sm:mb-16">
+                Donec rutrum congue leo eget malesuada. Sed porttitor nibh. Cras
+                ultricies ligula sed magna dictum porta. Vestibulum
+              </p>
+              <a
+                href="https://google.com"
+                target="_blank"
+                class="block rounded-lg border border-border px-5 py-3 text-neutral-400 transition-colors duration-200 hover:border-dark sm:py-4">
+                <img
+                  src="./images/logo/google.svg"
+                  class="mr-2 inline-block w-fit"
+                  alt="google" />
+                Sign up With Google
+              </a>
+            </div>
+            <!-- End Social Login -->
+
+            <div class="mb-6 flex items-center justify-between">
+              <hr class="w-full border-border" />
+              <span
+                class="whitespace-nowrap px-4 text-zinc-400 text-opacity-70">
+                Or Sign up With Email
+              </span>
+              <hr class="w-full border-border" />
+            </div>
+            <form method="post" class="row gy-3 text-dark">
+              <div class="col-12">
+                <label for="name" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-input"
+                  placeholder="Your Full Name"
+                  id="name"
+                  required
+                  name="name" />
+              </div>
+              <div class="col-12">
+                <label for="email" class="form-label">Email Adrdess</label>
+                <input
+                  type="email"
+                  class="form-input"
+                  placeholder="Your Email Address"
+                  id="email"
+                  required
+                  name="email" />
+              </div>
+              <div class="col-12">
+                <label for="password" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-input"
+                  placeholder="Enter Your Password"
+                  id="password"
+                  required
+                  name="password" />
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary btn-icon mt-6">
+                  Sign up
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </form>
+            <p class="mt-6 text-center">
+              Already have account?
+              <a
+                class="font-medium underline underline-offset-2 hover:no-underline"
+                href="login.html">
+                Login
+              </a>
+            </p>
+            <!-- End Form -->
+          </div>
+          <!-- End Form Wrapper -->
+
+          <!-- Start Shape background -->
+          <div
+            class="pointer-events-none absolute left-[-4%] top-[-4%] -z-10 select-none"
+            data-aos="fade-right-sm">
+            <img
+              class="text-quaternary"
+              data-src="./images/shapes/login-s-1.svg"
+              alt="shape" />
+          </div>
+          <div
+            class="pointer-events-none absolute right-[-12%] top-[12%] -z-10 select-none"
+            data-aos="fade-left-sm">
+            <img
+              class="text-quinary"
+              data-src="./images/shapes/login-s-2.svg"
+              alt="shape" />
+          </div>
+          <div
+            class="pointer-events-none absolute bottom-[25%] left-[-10%] -z-10 select-none"
+            data-aos="fade-right-sm">
+            <img
+              class="text-tertiary"
+              data-src="./images/shapes/login-s-3.svg"
+              alt="shape" />
+          </div>
+          <div
+            class="pointer-events-none absolute bottom-[-10%] right-[-9%] -z-10 select-none"
+            data-aos="fade-left-sm">
+            <img
+              class="text-secondary"
+              data-src="./images/shapes/login-s-4.svg"
+              alt="shape" />
+          </div>
+          <!-- End Shape background -->
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- End Main Content -->
+
+@@include('footer.html', {"page": "sign-up"})

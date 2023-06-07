@@ -1,0 +1,213 @@
+<div
+  class="line-bg fixed left-0 top-1/2 z-10 flex h-screen w-full -translate-y-1/2 justify-between"
+>
+  <div class="container flex justify-between">
+    <span class="inline-block h-full opacity-50 md:opacity-100"></span>
+    <span class="inline-block h-full opacity-50 md:opacity-100"></span>
+    <span class="inline-block h-full opacity-50 md:opacity-100"></span>
+    <span class="inline-block h-full opacity-50 md:opacity-100"></span>
+    <span class="inline-block h-full opacity-50 md:opacity-100"></span>
+    <span class="inline-block h-full opacity-50 md:opacity-100"></span>
+  </div>
+</div>
+<!-- End background lines -->
+<div class="notice">
+  <div class="container-fluid">
+    <div class="relative flex items-center justify-between sm:text-center">
+      <span class="mx-auto pr-10">
+        Pellen tesque in ipsum id orci porta dapibus. Sed port titor lectus nibh
+        Vivamus.
+        <a href="#?">Learn More</a>
+      </span>
+      <button
+        class="notice-close-btn flex h-[20px] min-w-[20px] items-center justify-center rounded-full border-2 border-white text-white opacity-80"
+        aria-label="close toast button"
+        type="button"
+      >
+        <i class="fa-solid fa-xmark !text-[10px]"></i>
+      </button>
+    </div>
+  </div>
+</div>
+<!-- End Top Header  -->
+
+<header
+  class="header @@if (context.page === '404' || context.page === 'author-single' || context.page === 'login' || context.page === 'sign-up') {!bg-transparent }@@if (context.page === 'author-single') {bg-white }bg-quaternary/20 z-50"
+>
+  <nav class="navbar container relative z-30">
+    <a href="index.html" class="navbar-brand">
+      <img src="images/logo-dark.png" alt="spydea" />
+    </a>
+    <!-- End logo -->
+
+    <select
+      class="language-switcher block border-0 bg-right px-6 pl-0 text-base lg:hidden"
+      aria-label="language switcher"
+    >
+      <option value="en">EN</option>
+      <option value="fr">FR</option>
+    </select>
+    <!-- End Language Switcher -->
+
+    <button
+      class="navbar-toggler group relative ml-4"
+      aria-label="navbar toggler"
+    >
+      <div
+        class="relative flex h-[30px] w-[30px] transform items-center justify-center overflow-hidden rounded-full ring-0 transition-all duration-200"
+      >
+        <div
+          class="flex h-[15px] w-[18px] origin-center transform flex-col justify-between overflow-hidden transition-all duration-300 group-[.active]:h-[21px]"
+        >
+          <div
+            class="h-[2px] w-7 origin-left transform bg-dark transition-all duration-300 group-[.active]:translate-x-10"
+          ></div>
+          <div
+            class="h-[2px] w-7 transform rounded bg-dark transition-all delay-75 duration-300 group-[.active]:translate-x-10"
+          ></div>
+          <div
+            class="h-[2px] w-7 origin-left transform bg-dark transition-all delay-150 duration-300 group-[.active]:translate-x-10"
+          ></div>
+          <div
+            class="absolute top-2.5 flex w-0 -translate-x-10 transform items-center justify-between transition-all duration-500 group-[.active]:w-12 group-[.active]:translate-x-0"
+          >
+            <div
+              class="absolute h-[2px] w-5 rotate-0 transform bg-dark transition-all delay-300 duration-500 group-[.active]:rotate-45"
+            ></div>
+            <div
+              class="absolute h-[2px] w-5 -rotate-0 transform bg-dark transition-all delay-300 duration-500 group-[.active]:-rotate-45"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </button>
+    <!-- End Navbar Toggler -->
+
+    <div class="navbar-wrapper">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="blog.html" class="nav-link">Blog</a>
+        </li>
+        <li class="nav-item nav-dropdown group">
+          <span class="nav-link inline-flex items-center">
+            Pages
+            <i class="fa-solid fa-chevron-down arrow-icon"></i>
+          </span>
+          <ul
+            class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100"
+          >
+            <li class="nav-dropdown-item">
+              <a href="integration.html" class="nav-dropdown-link">
+                Integration
+              </a>
+            </li>
+            <li class="nav-dropdown-item">
+              <a href="integration-single.html" class="nav-dropdown-link">
+                Integration Single
+              </a>
+            </li>
+            <li class="nav-dropdown-item">
+              <a href="career.html" class="nav-dropdown-link">Career</a>
+            </li>
+            <li class="nav-dropdown-item">
+              <a href="career-single.html" class="nav-dropdown-link">
+                Career Single
+              </a>
+            </li>
+            <li class="nav-dropdown-item">
+              <a href="pricing.html" class="nav-dropdown-link">Pricing</a>
+            </li>
+            <li class="nav-dropdown-item">
+              <a href="all-author.html" class="nav-dropdown-link">All Author</a>
+            </li>
+            <li class="nav-dropdown-item">
+              <a href="author-single.html" class="nav-dropdown-link">
+                Author Single
+              </a>
+            </li>
+            <li class="nav-dropdown-item">
+              <a href="blog-single.html" class="nav-dropdown-link">
+                Blog Single
+              </a>
+            </li>
+            <li class="nav-dropdown-item">
+              <a href="contact.html" class="nav-dropdown-link">Contact</a>
+            </li>
+            <li class="nav-dropdown-item">
+              <a href="sign-up.html" class="nav-dropdown-link">Sign up</a>
+            </li>
+            <li class="nav-dropdown-item">
+              <a href="terms-conditions.html" class="nav-dropdown-link">
+                Terms & Conditions
+              </a>
+            </li>
+            <li class="nav-dropdown-item">
+              <a href="404.html" class="nav-dropdown-link">404</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <!-- End Navbar Nav -->
+
+      <div
+        class="order-2 mx-auto mb-[0.75rem] flex flex-col items-center lg:mx-0 lg:mb-0 lg:ml-7 lg:flex-row"
+      >
+        <select class="language-switcher hidden lg:block">
+          <option value="en">EN</option>
+          <option value="fr">FR</option>
+        </select>
+        <div
+          class="flex flex-col justify-center gap-5 pt-4 text-center lg:ml-7 lg:flex-row lg:gap-7 lg:pt-0 lg:text-left"
+        >
+          <a
+            href="login.html"
+            class="btn btn-outline-primary w-[200px] min-[340px]:w-[300px] lg:w-auto"
+          >
+            Login
+          </a>
+          <a
+            href="contact.html"
+            class="btn btn-primary w-[200px] min-[340px]:w-[300px] lg:w-auto"
+          >
+            Get Started
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End Navbar Wrapper -->
+  </nav>
+  <!-- End Main Header  -->
+
+  <div
+    class="line-bg @@if (context.page === '404' || context.page === 'author-single' || context.page === 'login' || context.page === 'sign-up') {hidden } absolute z-20"
+  >
+    <div class="container flex justify-between">
+      <span
+        class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"
+      ></span>
+      <span
+        class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"
+      ></span>
+      <span
+        class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"
+      ></span>
+      <span
+        class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"
+      ></span>
+      <span
+        class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"
+      ></span>
+      <span
+        class="bg-line-yellow inline-block h-full opacity-50 md:opacity-100"
+      ></span>
+    </div>
+  </div>
+  <!-- End background lines -->
+</header>
+<!-- End Header -->
